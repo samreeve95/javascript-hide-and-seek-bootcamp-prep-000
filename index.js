@@ -16,17 +16,17 @@
   
 function getFirstSelector(selector) 
 {
-  return querySelector(selector);
+  return document.querySelector(selector);
 }
 
 function nestedTarget()
 {
-  return querySelector("#nested .target");
+  return document.querySelector("#nested .target");
 }
 
 function increaseRankBy(n)
 {
-  var lis = querySelectorAll(".ranked-list li");
+  var lis = document.querySelectorAll(".ranked-list li");
   
   for (var i=0;i<lis.length;i++)
   {
