@@ -23,3 +23,4 @@ function nestedTarget()
 {
   return querySelector("#nested .target");
 }
+
