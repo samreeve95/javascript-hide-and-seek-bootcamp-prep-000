@@ -30,7 +30,7 @@ function increaseRankBy(n)
   
   for (var i=0;i<lis.length;i++)
   {
-    lis[i].innerHTML = parseInt(lis[i].innerHTML)+1;
+    lis[i].innerHTML = parseInt(lis[i].innerHTML)+n;
   }
   
 }
