@@ -24,3 +24,10 @@ function nestedTarget()
   return querySelector("#nested .target");
 }
 
+function increaseRankBy(n)
+{
+  var lis = querySelectorAll(".ranked-list li");
+  
+  
+  
+}
