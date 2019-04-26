@@ -21,5 +21,5 @@ function getFirstSelector(selector)
 
 function nestedTarget()
 {
-  return querySelector("#nested.target");
+  return querySelector("#nested .target");
 }
